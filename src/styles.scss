@@ -1,0 +1,17 @@
+@import'../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --primary-color: #7533a8;
+    --erro-color:#ac2828;
+    --gray-color:#747474;
+
+}
+
+.c-primary{    color: var(--primary-color)}
+.c-erro{    color: var(--erro-color)}
+.c-gray{    color: var(--gray-color)}
+
+.hover:hover{cursor: pointer;}
+img{
+    width: auto;
+}

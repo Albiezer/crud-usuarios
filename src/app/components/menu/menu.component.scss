@@ -1,0 +1,44 @@
+.sidemenu{
+    width: 220px;
+    height: 100vh;
+    min-height: 100vh;
+    display: block;
+    float: left;
+    background-color: var(--primary-color);
+    padding: 10px 0px;
+    box-shadow: 4px 0px 10px 4px black;
+    margin-right: 16px;
+    ul{padding: 0;}
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 4px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        padding: 14px 24px;
+        list-style: none;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0;
+        justify-content: left;
+        transition: 0.3 linear all;
+        mat-icon{margin-right: 14px; font-size: 22px;} 
+        &:hover{
+            background-color:  rgb(216, 213, 209);
+            cursor: pointer;
+            color: var(--primary-color);
+
+        }
+    }
+    .logout{
+        position: absolute;
+        bottom: 0px;
+        width: 210px;
+
+    }
+    a{text-decoration: none;}
+}    
+    
