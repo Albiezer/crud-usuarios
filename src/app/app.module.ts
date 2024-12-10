@@ -10,12 +10,15 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MatIconModule } from '@angular/material/icon';
-import { MatProgressSpinner } from '@angular/material/progress-spinner';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getAuth, provideAuth } from '@angular/fire/auth';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import {AngularFireModule} from '@angular/fire/compat';
 import { CrudComponent } from './pages/crud/crud.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 
@@ -35,8 +38,10 @@ import { CrudComponent } from './pages/crud/crud.component';
     AppRoutingModule,
     FormsModule,
     MatIconModule,
-    MatProgressSpinner,
-    AngularFireModule
+    MatProgressSpinnerModule,
+    AngularFireModule,
+    MatFormFieldModule,
+    MatInputModule
 
     
     
